@@ -12,7 +12,7 @@ export async function POST(req) {
         pass: "gdftzlquabnturmk",
       }
     });
-
+//have to change the email
     const mailOptions = {
       from: "lockhomesxii@gmail.com",
       to: "lareb.saeed@globewyze.com",
