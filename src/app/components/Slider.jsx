@@ -1,5 +1,4 @@
 'use client';
-import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Slide1 from "../assets/FlapsTen/Features-1.webp";
