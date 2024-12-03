@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        hasScrolled ? 'bg-[#252361]' : 'bg-transparent'
+        hasScrolled ? 'bg-[#1F2937]' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center py-4">
@@ -66,7 +66,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-full bg-[#252361] text-white transform ${
+        className={`fixed top-0 right-0 h-full bg-[#1F2937] text-white transform ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out w-64 md:hidden`}
       >
