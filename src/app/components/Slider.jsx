@@ -1,8 +1,7 @@
 'use client';
-import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import Slide1 from "../assets/FlapsTen/Featured image.svg";
+import Slide1 from "../assets/FlapsTen/Features-1.webp";
 import Slide2 from "../assets/FlapsTen/Features 2.svg";
 
 const AutoScrollingSlider = () => {

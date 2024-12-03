@@ -32,9 +32,7 @@ export default function Footer() {
       } else {
         toast.error(data.message);
       }
-    } catch (error) {
-      toast.error("Something went wrong!");
-    } finally {
+    }finally {
       setLoading(false); 
     }
   };
