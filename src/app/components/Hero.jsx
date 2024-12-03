@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60"></div>
       </div>
 
-      <div className="relative z-10w-full lg:w-1/2 h-full flex flex-col justify-center items-start space-y-8 px-10 sm:px-8">
+      <div className="relative z-10w-full lg:w-1/2 h-full flex flex-col justify-center items-start space-y-8 px-14 ml-8 sm:px-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
           Simplifying Every Aspect of Aviation
         </h1>
