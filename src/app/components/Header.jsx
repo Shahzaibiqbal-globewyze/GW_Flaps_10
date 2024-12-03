@@ -56,7 +56,7 @@ const Header = () => {
         <div className="md:hidden flex items-center">
           <button
             type="button"
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none text-3xl"
             onClick={toggleMobileMenu}
           >
             ☰

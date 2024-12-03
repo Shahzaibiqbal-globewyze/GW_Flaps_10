@@ -7,7 +7,7 @@ const Buttons = () => {
     <div>
       <div className="flex gap-4 mt-4 md:mt-6 flex-wrap">
         {/* Google Play Button */}
-        <Link href="https://play.google.com/store/apps/details?id=com.millao.re&pcampaignid=web_share&pli=1" className="flex items-center mb-4 md:mb-0">
+        <Link href="https://play.google.com/store/apps/details?id=com.aalite" className="flex items-center mb-4 md:mb-0">
           <Image
             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
             alt="Google Play Badge"
@@ -19,7 +19,7 @@ const Buttons = () => {
 
         {/* Apple App Store Button */}
         <Link
-          href="https://apps.apple.com/pk/app/millao-re/id6472173071"
+          href="https://apps.apple.com/pk/app/flaps10/id1555713341"
           className="flex items-center w-[140px] h-[40px] bg-black text-white rounded-lg hover:bg-gray-800 justify-center gap-1"
         >
           <Image
