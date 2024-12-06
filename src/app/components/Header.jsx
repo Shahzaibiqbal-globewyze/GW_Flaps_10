@@ -1,8 +1,8 @@
-'use client'
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import logo from '../assets/FlapsTen/logoIcon.svg'
-import Image from 'next/image';
+"use client";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import logo from "../assets/FlapsTen/logoIcon.svg";
+import Image from "next/image";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -14,27 +14,27 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setHasScrolled(true); 
+        setHasScrolled(true);
       } else {
         setHasScrolled(false);
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        hasScrolled ? 'bg-[#1F2937]' : 'bg-transparent'
+        hasScrolled ? "bg-[#1F2937]" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center py-4">
         <div className="text-white text-2xl font-bold">
           <Link href="/" className="flex items-center">
-            <Image src={logo} alt="logo icon"/>
+            <Image src={logo} alt="logo icon" />
           </Link>
         </div>
 
@@ -42,14 +42,18 @@ const Header = () => {
           <Link href="/" className="hover:text-gray-300 transition">
             Home
           </Link>
-          <Link href="/features" className="hover:text-gray-300 transition">
+          <Link href="#features" className="hover:text-gray-300 transition">
             Features
           </Link>
-          <Link href="/blog" className="hover:text-gray-300 transition">
+
+          <Link href="#blog" className="hover:text-gray-300 transition">
             Blog
           </Link>
 
-          <Link href="/" className="bg-gray-900  text-white px-6 py-3 text-sm rounded-lg shadow-lg hover:bg-gray-950 transition">
+          <Link
+            href="/"
+            className="bg-gray-900  text-white px-6 py-3 text-sm rounded-lg shadow-lg hover:bg-gray-950 transition"
+          >
             Download Now →
           </Link>
         </div>
@@ -67,7 +71,7 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={`fixed top-0 right-0 h-full bg-[#1F2937] text-white transform ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out w-64 md:hidden`}
       >
         <button
@@ -81,10 +85,10 @@ const Header = () => {
           <Link href="/" className="text-white text-sm py-2 hover:bg-gray-700">
             Home
           </Link>
-          <Link href="/features" className="text-white text-sm py-2 hover:bg-gray-700">
+          <Link href="/" className="text-white text-sm py-2 hover:bg-gray-700">
             Features
           </Link>
-          <Link href="/blog" className="text-white text-sm py-2 hover:bg-gray-700">
+          <Link href="/" className="text-white text-sm py-2 hover:bg-gray-700">
             Blog
           </Link>
           <Link

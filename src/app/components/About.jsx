@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import phoneImage from '../assets/FlapsTen/About.svg'; 
+import phoneImage from '../assets/FlapsTen/About Us Image.svg'; 
 
 const AboutSection = () => {
   return (

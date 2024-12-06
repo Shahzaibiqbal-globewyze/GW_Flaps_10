@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Buttons from "./Buttons";
 import Image from "next/image";
-import logo from '../assets/FlapsTen/logoIcon.svg'
+import logo from '../assets/FlapsTen/Logo blue.svg'
 import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -91,7 +91,7 @@ export default function Footer() {
           </div>
 
           <div className="w-full md:w-1/2 flex flex-col items-center md:items-end">
-            <Image src={logo} alt="Flaps Tes" color="blue" height={50} width={120} />
+            <Image src={logo} alt="Flaps Tes" color="blue" height={80} width={140} />
             <p className="text-[#171059] text-sm mt-2 text-center md:text-right">
               Download Our App
             </p>

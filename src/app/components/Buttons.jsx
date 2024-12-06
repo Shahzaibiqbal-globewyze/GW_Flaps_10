@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import playStorebtn from '../assets/FlapsTen/Google_Play_Store.svg'
 
 const Buttons = () => {
   return (
@@ -9,7 +10,7 @@ const Buttons = () => {
         {/* Google Play Button */}
         <Link href="https://play.google.com/store/apps/details?id=com.aalite" className="flex items-center mb-4 md:mb-0">
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+            src={playStorebtn}
             alt="Google Play Badge"
             width={140}
             height={40}

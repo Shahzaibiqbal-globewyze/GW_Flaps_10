@@ -27,7 +27,24 @@ const data = [
     description:
       "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
   },
-  
+  {
+    number: "04",
+    title: "Virtual Flying School Management",
+    description:
+      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+  },
+  {
+    number: "05",
+    title: "Virtual Flying School Management",
+    description:
+      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+  },
+  {
+    number: "06",
+    title: "Virtual Flying School Management",
+    description:
+      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+  },
 ];
 
 export default function HomePage() {

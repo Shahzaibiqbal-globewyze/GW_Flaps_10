@@ -14,8 +14,12 @@ export default function Home() {
         <Hero />
         <About />
         <Banner content="Your ultimate hub for managing all aspects of flight, so you can focus on what matters most — flying." />
-        <Card />
+        <section id="features">
+          <Card />
+        </section>
+        <section id="blog">
         <Slider />
+        </section>
         <Banner
           heading="Take Flight with Flaps Ten"
           content="Download the app now to explore a new era of aviation management, training, and accessiblity."
