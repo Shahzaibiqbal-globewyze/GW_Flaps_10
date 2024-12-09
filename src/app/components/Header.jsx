@@ -68,7 +68,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Section*/}
+      {/* Mobile Menu*/}
       <div
         className={`fixed top-0 right-0 h-full bg-[#1F2937] text-white transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
