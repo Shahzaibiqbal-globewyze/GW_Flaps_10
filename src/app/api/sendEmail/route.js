@@ -8,28 +8,28 @@ export async function POST(req) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "lockhomesxii@gmail.com",
-        pass: "gdftzlquabnturmk",
+        user: "globewyze1@gmail.com",
+        pass: "bxbwdfnqmbicksic",
       }
     });
 //have to change the email to gw admin
     const mailOptions = {
-      from: "lockhomesxii@gmail.com",
+      from: '"Globewyze Admin" <globewyze1@gmail.com>',
       to: "lareb.saeed@globewyze.com",
-      subject: "New User subscribed to newsletter",
+      subject: "New User subscribed to Flaps10 newsletter",
       text: `Email: ${email}`,
     };
 
     await transporter.sendMail(mailOptions);
 
     return new Response(
-      JSON.stringify({ message: "Email sent successfully!" }),
+      JSON.stringify({ message: "Newsletter Subscribed successfully!" }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
     console.error(error);
     return new Response(
-      JSON.stringify({ message: "Failed to send email", error }),
+      JSON.stringify({ message: "Something Went Wrong Please Try Again", error }),
       { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
