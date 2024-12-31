@@ -1,34 +1,45 @@
 import Image from "next/image";
 import Buttons from "./Buttons";
 import bgImage from "../assets/FlapsTen/Landing Page.svg";
+import mobileImage from "../assets/FlapsTen/mobile img.svg";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen">
-      <div className="absolute inset-0">
+    <div className="relative w-full overflow-hidden">
+      <div className="absolute inset-0 hidden lg:block">
         <Image
           src={bgImage}
-          alt="Landing Page Background"
+          alt="Desktop Background"
           layout="fill"
           objectFit="cover"
           priority
-          className="w-full h-full"
+          sizes="100vw"
+          className="object-center"
         />
-
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60"></div>
       </div>
 
-      <div className="relative z-10w-full lg:w-1/2 h-full flex flex-col justify-center items-start space-y-8 px-14 ml-8 sm:px-8">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+      <div className="absolute inset-0 block lg:hidden h-auto p-5">
+        <Image
+          src={mobileImage}
+          alt="Mobile Background"
+          layout="fill"
+          objectFit="cover"
+          priority
+          sizes="100vw"
+          className="object-center"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60"></div>
+
+      <div className="relative z-10 flex flex-col justify-center items-start lg:w-1/2 px-6 lg:px-16 h-auto lg:h-screen mt-10 sm:mt-16">
+        <h1 className="text-xl mt-16 md:mt-0 w-2/4 md:w-full sm:text-3xl lg:text-5xl font-bold text-white leading-snug">
           Simplifying Every Aspect of Aviation
         </h1>
-
-        <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 max-w-3xl">
+        <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-2xl leading-relaxed mt-4">
           Experience the future of flight management, where technology meets the
           passion for aviation.
         </p>
-
-        <div className="mt-4">
+        <div className="mt-6">
           <Buttons />
         </div>
       </div>
