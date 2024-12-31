@@ -12,7 +12,6 @@ export async function POST(req) {
         pass: "bxbwdfnqmbicksic",
       }
     });
-//have to change the email to gw admin
     const mailOptions = {
       from: '"Globewyze Admin" <globewyze1@gmail.com>',
       to: "lareb.saeed@globewyze.com",
