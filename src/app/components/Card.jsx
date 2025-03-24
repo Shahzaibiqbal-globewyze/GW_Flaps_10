@@ -29,21 +29,21 @@ const data = [
   },
   {
     number: "04",
-    title: "Virtual Flying School Management",
+    title: "Block Hours Management",
     description:
-      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+      "Accurately log flying hours for an organized, hassle-free experience.",
   },
   {
     number: "05",
-    title: "Virtual Flying School Management",
+    title: "Payment Processing",
     description:
-      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+      "Integrated payment solutions for quick, secure, and easy transaction handling.",
   },
   {
     number: "06",
-    title: "Virtual Flying School Management",
+    title: "Flight Itinerary & Log Management",
     description:
-      "A digital training platform for flight schools to manage courses, schedules, and track student progress.",
+      "Plan and document flights with effortless itinerary setup and digital logging.",
   },
 ];
 
