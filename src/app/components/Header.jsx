@@ -50,12 +50,12 @@ const Header = () => {
             Blog
           </Link>
 
-          <Link
+          {/* <Link
             href="/"
             className="bg-gray-900  text-white px-6 py-3 text-sm rounded-lg shadow-lg hover:bg-gray-950 transition"
           >
             Download Now →
-          </Link>
+          </Link> */}
         </div>
         <div className="md:hidden flex items-center">
           <button
@@ -91,12 +91,12 @@ const Header = () => {
           <Link href="/" className="text-white text-sm py-2 hover:bg-gray-700">
             Blog
           </Link>
-          <Link
+          {/* <Link
             href="/"
             className="bg-[#262c47] text-white text-sm py-2 px-4 rounded-lg mt-4"
           >
             Download Now →
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

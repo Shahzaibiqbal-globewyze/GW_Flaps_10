@@ -2,8 +2,8 @@
 import React, { useRef } from 'react';
 import Slider from "react-slick";
 import Image from "next/image";
-import Slide1 from "../assets/FlapsTen/Features 1.svg";
-import Slide2 from "../assets/FlapsTen/Features 2.svg";
+import Slide1 from "../assets/FlapsTen/Features 1.png";
+import Slide2 from "../assets/FlapsTen/Features 2.png";
 
 const AutoScrollingSlider = () => {
   const sliderRef = useRef(null);
