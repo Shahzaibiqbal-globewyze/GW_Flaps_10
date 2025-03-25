@@ -33,7 +33,7 @@ const Hero = () => {
 
       <div className="relative z-10 flex flex-col justify-center items-start lg:w-1/2 px-6 lg:px-16 h-auto lg:h-screen mt-10 sm:mt-16">
         <h1 className="text-xl mt-16 md:mt-0 w-2/4 md:w-full sm:text-3xl lg:text-5xl font-bold text-white leading-snug">
-          Simplifying Every Aspect of Aviation
+        Simplifying GA Fleet and Line Management
         </h1>
         <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-2xl leading-relaxed mt-4">
           Experience the future of flight management, where technology meets the

@@ -19,7 +19,7 @@ const data = [
     number: "02",
     title: "Virtual Dispatch & Scheduling",
     description:
-      "Simplifying GA Fleet and Line Management – Easily manage aircraft scheduling and availability to keep operations smooth and efficient.",
+      "Easily manage aircraft scheduling and availability to keep operations smooth and efficient.",
   },
   {
     number: "03",
